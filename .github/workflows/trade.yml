@@ -1,0 +1,27 @@
+name: trade
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: trade
+  cancel-in-progress: false
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install --quiet numpy pandas requests
+      - run: python vps_trader.py --once
+      - name: 提交账户状态回仓库(持久化)
+        run: |
+          git config user.name "trader-bot"
+          git config user.email "trader-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "state $(date -u +%FT%TZ)" || echo "无变化"
+          git push || echo "push跳过"
