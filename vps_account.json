@@ -1,1 +1,1 @@
-{"balance": 10000.0, "day": "2026-07-27", "day_start_eq": 10000.0, "positions": {}, "closed": []}
+{"balance": 10000.0, "day": "2026-07-27", "day_start_eq": 10000.0, "positions": {"gold": {"side": 1, "entry": 4101.2998046875, "stop": 4075.0571, "vol": 3.810587, "risk": 26.24267578125}}, "closed": []}
