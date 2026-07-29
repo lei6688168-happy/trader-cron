@@ -1,1 +1,1 @@
-{"balance": 9856.571917079214, "day": "2026-07-29", "day_start_eq": 9856.571917079214, "positions": {"gold": {"side": -1, "entry": 4048.699951171875, "stop": 4070.5857, "vol": 4.503657, "risk": 21.885707310267858}}, "closed": [{"sym": "gold", "pnl_r": -1.434, "reason": "SL"}]}
+{"balance": 9655.913381403658, "day": "2026-07-29", "day_start_eq": 9856.571917079214, "positions": {}, "closed": [{"sym": "gold", "pnl_r": -1.434, "reason": "SL"}, {"sym": "gold", "pnl_r": -2.036, "reason": "SL"}]}
