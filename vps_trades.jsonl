@@ -7,3 +7,4 @@
 {"ts": "2026-08-03 17:28", "sym": "gold", "act": "OPEN", "side": "空", "price": 4092.6, "stop": 4119.24, "votes": {"awesome": -1, "strategy001": -1, "ichimoku": -1, "boll_break": -1}}
 {"ts": "2026-08-04 06:15", "sym": "gold", "act": "CLOSE", "reason": "止损", "price": 4120.8, "pnl_r": -1.151, "bal": 9560.01}
 {"ts": "2026-08-04 15:53", "sym": "gold", "act": "OPEN", "side": "多", "price": 4141.5, "stop": 4109.99, "votes": {"awesome": 1, "strategy001": 1, "ichimoku": 1, "boll_break": 1}}
+{"ts": "2026-08-14 02:02", "sym": "gold", "act": "CLOSE", "reason": "共识反向", "price": 4369.8, "pnl_r": 7.161, "bal": 10244.61}
