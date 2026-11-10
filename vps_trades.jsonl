@@ -52,3 +52,4 @@
 {"ts": "2026-11-04 09:51", "sym": "gold", "act": "CLOSE", "reason": "止损", "price": 4052.6, "pnl_r": -1.657, "bal": 18392.95}
 {"ts": "2026-11-04 17:42", "sym": "gold", "act": "OPEN", "side": "多", "price": 4079.1, "stop": 4038.96, "votes": {"awesome": 1, "strategy001": 1, "ichimoku": 1, "boll_break": 1}}
 {"ts": "2026-11-10 16:44", "sym": "gold", "act": "CLOSE", "reason": "止损", "price": 4033.4, "pnl_r": -1.199, "bal": 18172.47}
+{"ts": "2026-11-10 21:58", "sym": "gold", "act": "OPEN", "side": "空", "price": 4038.5, "stop": 4073.46, "votes": {"awesome": -1, "strategy001": -1, "ichimoku": -1, "boll_break": -1}}
